@@ -1,10 +1,13 @@
-mmcv
+mmcv_full
 tqdm
 gdown
 nmslib
 Cython
 easydict
+torch
+torchvision
 python-igraph
 cairocffi
 fastcluster
+scikit_learn
 numpy>=1.18.1

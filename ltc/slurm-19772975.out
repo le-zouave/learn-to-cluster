@@ -1,0 +1,103 @@
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) blis/0.8.1          3) libfabric/1.10.1     5) ucx/1.8.0
+  2) flexiblas/3.0.4     4) openmpi/4.0.3
+
+created virtual environment CPython3.10.2.final.0-64 in 701ms
+  creator CPython3Posix(dest=/localscratch/zouave.19772975.0/env, clear=True, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/zouave/.local/share/virtualenv)
+    added seed packages: pip==23.1.2, setuptools==60.2.0, wheel==0.37.1
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /localscratch/zouave.19772975.0/env/lib/python3.10/site-packages (23.1.2)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mmcv_full-1.7.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tqdm-4.65.0+computecanada-py3-none-any.whl (from -r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/gdown-4.5.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 3))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/nmslib-2.1.1+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 4))
+Requirement already satisfied: Cython in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from -r requirements.txt (line 5)) (0.29.33+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/easydict-1.9+computecanada-py3-none-any.whl (from -r requirements.txt (line 6))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/torch-2.0.1+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 7))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/torchvision-0.15.2+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 8))
+Requirement already satisfied: python-igraph in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/igraph/0.10.2/lib/python3.10/site-packages (from -r requirements.txt (line 9)) (0.10.2)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cairocffi-1.2.0+computecanada-py3-none-any.whl (from -r requirements.txt (line 10))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/fastcluster-1.2.6+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 11))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/scikit_learn-1.3.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 12))
+Requirement already satisfied: numpy>=1.18.1 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from -r requirements.txt (line 13)) (1.24.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/addict-2.4.0+computecanada-py3-none-any.whl (from mmcv_full->-r requirements.txt (line 1))
+Requirement already satisfied: packaging in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages (from mmcv_full->-r requirements.txt (line 1)) (23.0+computecanada)
+Requirement already satisfied: Pillow in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from mmcv_full->-r requirements.txt (line 1)) (9.4.0+computecanada)
+Requirement already satisfied: pyyaml in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from mmcv_full->-r requirements.txt (line 1)) (6.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/yapf-0.40.1+computecanada-py3-none-any.whl (from mmcv_full->-r requirements.txt (line 1))
+Requirement already satisfied: opencv-python>=3 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/CUDA/gcc9/cuda11.4/opencv/4.7.0/lib/python3.10/site-packages (from mmcv_full->-r requirements.txt (line 1)) (4.7.0)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.12.0+computecanada-py3-none-any.whl (from gdown->-r requirements.txt (line 3))
+Requirement already satisfied: requests[socks] in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from gdown->-r requirements.txt (line 3)) (2.28.2+computecanada)
+Requirement already satisfied: six in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages (from gdown->-r requirements.txt (line 3)) (1.16.0+computecanada)
+Requirement already satisfied: beautifulsoup4 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from gdown->-r requirements.txt (line 3)) (4.11.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic/pybind11-2.6.1+computecanada-py2.py3-none-any.whl (from nmslib->-r requirements.txt (line 4))
+Requirement already satisfied: psutil in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages (from nmslib->-r requirements.txt (line 4)) (5.9.4+computecanada)
+Requirement already satisfied: typing-extensions in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from torch->-r requirements.txt (line 7)) (4.5.0+computecanada)
+Requirement already satisfied: sympy in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from torch->-r requirements.txt (line 7)) (1.11.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.1+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 7))
+Requirement already satisfied: jinja2 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from torch->-r requirements.txt (line 7)) (3.1.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/Pillow_SIMD-9.0.0.post1+computecanada-cp310-cp310-linux_x86_64.whl (from torchvision->-r requirements.txt (line 8))
+Requirement already satisfied: cffi>=1.1.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from cairocffi->-r requirements.txt (line 10)) (1.15.1+computecanada)
+Requirement already satisfied: scipy>=1.5.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from scikit_learn->-r requirements.txt (line 12)) (1.10.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/joblib-1.3.1+computecanada-py3-none-any.whl (from scikit_learn->-r requirements.txt (line 12))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/threadpoolctl-3.2.0+computecanada-py3-none-any.whl (from scikit_learn->-r requirements.txt (line 12))
+Requirement already satisfied: pycparser in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from cffi>=1.1.0->cairocffi->-r requirements.txt (line 10)) (2.21+computecanada)
+Requirement already satisfied: soupsieve>1.2 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from beautifulsoup4->gdown->-r requirements.txt (line 3)) (2.4+computecanada)
+Requirement already satisfied: MarkupSafe>=2.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from jinja2->torch->-r requirements.txt (line 7)) (2.1.2+computecanada)
+Requirement already satisfied: charset-normalizer<4,>=2 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from requests[socks]->gdown->-r requirements.txt (line 3)) (3.0.1+computecanada)
+Requirement already satisfied: idna<4,>=2.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from requests[socks]->gdown->-r requirements.txt (line 3)) (3.4+computecanada)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from requests[socks]->gdown->-r requirements.txt (line 3)) (1.26.14+computecanada)
+Requirement already satisfied: certifi>=2017.4.17 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from requests[socks]->gdown->-r requirements.txt (line 3)) (2022.12.7+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/PySocks-1.7.1+computecanada-py3-none-any.whl (from requests[socks]->gdown->-r requirements.txt (line 3))
+Requirement already satisfied: mpmath>=0.19 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/scipy-stack/2023a/lib/python3.10/site-packages (from sympy->torch->-r requirements.txt (line 7)) (1.2.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-6.8.0+computecanada-py3-none-any.whl (from yapf->mmcv_full->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/platformdirs-3.9.1+computecanada-py3-none-any.whl (from yapf->mmcv_full->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tomli-2.0.1+computecanada-py3-none-any.whl (from yapf->mmcv_full->-r requirements.txt (line 1))
+Requirement already satisfied: zipp>=0.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages (from importlib-metadata>=6.6.0->yapf->mmcv_full->-r requirements.txt (line 1)) (3.14.0+computecanada)
+Installing collected packages: easydict, addict, tqdm, tomli, threadpoolctl, PySocks, pybind11, platformdirs, pillow-simd, networkx, joblib, importlib-metadata, filelock, fastcluster, yapf, torch, scikit_learn, nmslib, cairocffi, torchvision, mmcv_full, gdown
+  Attempting uninstall: platformdirs
+    Found existing installation: platformdirs 2.5.2+computecanada
+    Not uninstalling platformdirs at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages, outside environment /localscratch/zouave.19772975.0/env
+    Can't uninstall 'platformdirs'. No files were found to uninstall.
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib_metadata 5.2.0+computecanada
+    Not uninstalling importlib-metadata at /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/ipykernel/2023a/lib/python3.10/site-packages, outside environment /localscratch/zouave.19772975.0/env
+    Can't uninstall 'importlib_metadata'. No files were found to uninstall.
+Successfully installed PySocks-1.7.1+computecanada addict-2.4.0+computecanada cairocffi-1.2.0+computecanada easydict-1.9+computecanada fastcluster-1.2.6+computecanada filelock-3.12.0+computecanada gdown-4.5.1+computecanada importlib-metadata-6.8.0+computecanada joblib-1.3.1+computecanada mmcv_full-1.7.1+computecanada networkx-3.1+computecanada nmslib-2.1.1+computecanada pillow-simd-9.0.0.post1+computecanada platformdirs-3.9.1+computecanada pybind11-2.6.1+computecanada scikit_learn-1.3.0+computecanada threadpoolctl-3.2.0+computecanada tomli-2.0.1+computecanada torch-2.0.1+computecanada torchvision-0.15.2+computecanada tqdm-4.65.0+computecanada yapf-0.40.1+computecanada
+running develop
+/localscratch/zouave.19772975.0/env/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+WARNING: The user site-packages directory is disabled.
+/localscratch/zouave.19772975.0/env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing manifest file 'ltc.egg-info/SOURCES.txt'
+running build_ext
+/localscratch/zouave.19772975.0/env/lib/python3.10/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+[2023-07-31 13:37:06,218] Set random seed to 1
+[/home/zouave/scratch/LtUAFM/learn-to-cluster/ltc/data/labels/deepfashion_train.meta] #cls: 3991, #inst: 25752
+[Time] read meta and feature consumes 0.3317 s
+[Time] read knn graph consumes 0.0862 s
+feature shape: (25752, 256), norm_feat: True, sort_knns: True k_at_hop: [5, 5], active_connection: 5
+Traceback (most recent call last):
+  File "/home/zouave/scratch/LtUAFM//learn-to-cluster/ltc/lgcn/main.py", line 87, in <module>
+    main()
+  File "/home/zouave/scratch/LtUAFM//learn-to-cluster/ltc/lgcn/main.py", line 83, in main
+    handler(model, cfg, logger)
+  File "/lustre07/scratch/zouave/LtUAFM/learn-to-cluster/ltc/lgcn/train_lgcn.py", line 47, in train_lgcn
+    _single_train(model, data_loaders, cfg)
+  File "/lustre07/scratch/zouave/LtUAFM/learn-to-cluster/ltc/lgcn/train_lgcn.py", line 70, in _single_train
+    runner = Runner(model, batch_processor, optimizer, cfg.work_dir,
+  File "/localscratch/zouave.19772975.0/env/lib/python3.10/site-packages/mmcv/runner/epoch_based_runner.py", line 197, in __init__
+    super().__init__(*args, **kwargs)
+  File "/localscratch/zouave.19772975.0/env/lib/python3.10/site-packages/mmcv/runner/base_runner.py", line 99, in __init__
+    raise TypeError(f'logger must be a logging.Logger object, '
+TypeError: logger must be a logging.Logger object, but got <class 'str'>
